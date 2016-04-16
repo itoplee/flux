@@ -1,0 +1,22 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "flux Demo",
+  "scripts": {
+    "start": "webpack-dev-server --progress",
+    "build": "webpack --watch"
+  },
+  "author": "liuyun",
+  "dependencies": {    
+    "flux": "~2.0.3",    
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"    
+  },
+  "devDependencies": {
+    "babel-loader": "~5.3.2",
+    "jsx-loader": "^0.13.2",
+    "object-assign": "^4.0.1",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "~1.10.1"
+  }
+}
