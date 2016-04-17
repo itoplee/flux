@@ -10,7 +10,10 @@
   "dependencies": {    
     "flux": "~2.0.3",    
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"    
+    "react-dom": "^0.14.0",
+    "babel-plugin-antd": "0.2.x",
+    "antd": "0.12.x",
+    "es3ify-loader": "^0.1.0"
   },
   "devDependencies": {
     "babel-loader": "~5.3.2",

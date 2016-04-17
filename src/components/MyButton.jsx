@@ -8,7 +8,7 @@ var MyButton = function(props) {
 
   return <div>
     <ul>{itemHtml}</ul>
-    <button onClick={props.onClick}>New Item</button>
+    <button onClick={props.onClick}>add</button>
   </div>;
 };
 
