@@ -10,12 +10,12 @@ module.exports = {
     filename: '[name].js'
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['', '.js'],
   },
   module: {
     loaders:[
-      // { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel!jsx-loader' },
-      { test: /\.js$/, exclude:/node_modules/, loader: 'babel'},
+      { test: /\.js$/, exclude:/node_modules/, loader: 'babel', query: {presets: ['react', 'es2015']}},
+      { test: /\.less/, loader: 'style!css!autoprefixer!less' }
     ]
   }
 };
