@@ -1,10 +1,10 @@
 let React = require('react');
-let Card = require('./Card.jsx');
-let List = require('./List.jsx');
-let Message = require ('./Message.jsx');
-let Text = require('./Text.jsx');
-let ChatStore = require('../../stores/ChatStore.js');
-let ChatActions = require('../../actions/ChatActions.js');
+let Card = require('./Card');
+let List = require('./List');
+let Message = require ('./Message');
+let Text = require('./Text');
+let ChatStore = require('../../stores/ChatStore');
+let ChatActions = require('../../actions/ChatActions');
 
 module.exports = React.createClass({
 	getInitialState () {

@@ -14,8 +14,8 @@ module.exports = {
   },
   module: {
     loaders:[
-      { test: /\.jsx$/, exclude: /node_modules/, loader: 'es3ify-loader!jsx-loader' },
-      { test: /\.js$/, exclude:/node_modules/, loader: 'babel-loader'},
+      // { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel!jsx-loader' },
+      { test: /\.js$/, exclude:/node_modules/, loader: 'babel'},
     ]
   }
 };
